@@ -1,0 +1,39 @@
+.slideBox{
+/* border-bottom: 1px solid grey; */
+padding: 0;
+}
+.card{
+    /* border:1px solid red; */
+    width:200px;
+    height:150px;
+    /* border-radius: 10px; */
+}
+.cardImage{
+    border-radius: 10px;
+    width:1250px;
+    /* border-bottom: 1px solid grey; */
+    /* padding-bottom: 5px; */
+
+}
+.catDisplay p{
+    padding: 0px 20px;
+    /* border:1px solid grey; */
+    font-weight: 580;
+    color: white;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 15px;
+    background-color:#F36BAB;
+    border-radius: 20px;
+}
+.catDisplay{
+    margin: 10px auto;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    /* background-color: white;  */
+    /* width:90%; */
+    border-radius: 20px;
+}

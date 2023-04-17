@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.mode{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  /* border-radius: 100%; */
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.HomeWrapper{
+  background-color: #F4F7FF;
+  min-height: 100vh;
+}
+.DescWrapper{
+  background-color: #F4F7FF;
+  height: 100vh;
+}

@@ -1,0 +1,84 @@
+.firstDiv{
+  height:60px;
+  width:100%;
+}
+
+.navbar{
+  position: relative;
+  top: 0;
+  height:60px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header{
+  position: absolute;
+  left:10px;
+  top:15px;
+  font-size: large;
+  background-color: #1877F2;
+  color: white;
+  padding-right:10px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  border-radius: 20px;
+}
+
+.header .greeting{
+  background-color: #F36BAB;
+  display: inline;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.logo{
+  position: absolute;
+  height:50px;
+  left:10px;
+}
+
+.topnav {
+    padding-top: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content:end;
+  }
+  
+  .topnav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .topnav a:hover {
+    background-color: #F36BAB;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .topnav a.active {
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .topnav a.logOutLink {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+  
+  

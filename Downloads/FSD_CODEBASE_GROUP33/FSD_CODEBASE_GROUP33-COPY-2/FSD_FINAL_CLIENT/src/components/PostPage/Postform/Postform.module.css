@@ -1,0 +1,182 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  
+/* body {
+    background-color: #F7ECDE;
+} */
+
+  .ipt {
+    width: 150%;
+    padding: 12px;
+    border:none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 4px #F4F7FF;
+    resize: vertical;
+  }
+  
+  .ti {
+    position: relative;
+    width: 150%;
+    right: 2%;
+    /* padding: 12px; */
+    border:none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 4px #F4F7FF;
+    resize: vertical;
+  }
+
+  .ti2 {
+    position: relative;
+    width: 150%;
+    right: 1%;
+    /* padding: 12px; */
+    border:none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 4px #F4F7FF;
+    resize: vertical;
+  }
+
+  .e {
+    width: 150%;
+    padding: 12px;
+    border: 2px solid red;
+    border-radius: 12px;
+    resize: vertical;
+  }
+  
+  .lb {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  .lbg {
+    position: relative;
+    right: 22%;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  .inp {
+    margin-top: 35px;
+    background-color: #1877F2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .inp:hover {
+    background-color:tomato;
+  }
+
+  .inp:active {
+    background-color:midnightblue;
+  }
+
+  .sub {
+    margin-left: 50px;
+  }
+  
+  .container {
+    background-color: white;
+    width:70vw;
+    border-radius: 20px;
+    margin-top: 30px;
+    /* background-color: #EEA47FFF; */
+    /* background-color: #E3BEC6; */
+    padding-top: 50px;
+    overflow-x: hidden;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    position: relative;
+    left:5%;
+    margin-top: 6px;
+  }
+  
+  .col-45 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+  }
+
+  .col-30 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+
+  .err1 {
+    position: relative;
+    right: 16%;
+    /* left: 28%; */
+  }
+
+  .err2 {
+    position: relative;
+    right: 12%;
+    /* left: 28%; */
+  }
+
+  .err3 {
+    position: relative;
+    right: 17%;
+    /* left: 28%; */
+  }
+
+  .uploadbutt {
+    position: relative;
+    margin-top: 10px;
+    right: 21%;
+    font-size: 16px;
+    background: white;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px black; */
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+
+::-webkit-file-upload-button {
+  color: white;
+  background: #F36BAB;
+  padding: 10px;
+  border:none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 5px 6px 4px #F4F7FF;
+}
+
+::-webkit-file-upload-button:hover {
+  background: #1877F2;
+}
+  
+  .row {
+    padding-bottom: 8px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .inp {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

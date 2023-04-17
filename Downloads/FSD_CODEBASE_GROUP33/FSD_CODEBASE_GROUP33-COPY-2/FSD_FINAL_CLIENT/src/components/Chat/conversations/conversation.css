@@ -1,0 +1,41 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  background-color: #F4F7FF;
+  border-radius: 15px;
+  height:min(30px);
+  /* border-bottom: 1px solid rgb(175, 175, 175); */
+}
+
+.conversation:hover {
+  color:white;
+  background-color:#1877f2;
+}
+
+.conversation.selected {
+  color: white;
+  background-color:#1877f2;
+  border-radius: 15px;
+}
+
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .conversationName {
+    font-size: small;
+  }
+}

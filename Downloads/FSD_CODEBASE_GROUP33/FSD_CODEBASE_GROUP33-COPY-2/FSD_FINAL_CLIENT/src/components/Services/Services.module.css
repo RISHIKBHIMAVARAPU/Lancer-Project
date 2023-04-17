@@ -1,0 +1,96 @@
+.serviceBox{
+    width:65vw;
+    float:right;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.serviceDiv{
+    margin-top: 10px;
+    display: grid;
+    /*  */
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    /* grid-template-columns: auto auto auto;
+    grid-auto-rows: 1fr; */
+    column-gap: 40px;
+    row-gap: 40px;
+    justify-content: center;
+    
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 0 2px 6px 5px #F4F7FF;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 22px;
+  }
+  .price {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .userData{
+    margin: 10px 0px;
+  }
+
+  .userImg{
+    height:40px;
+    left: 0;
+    padding: 0px 10px;
+  }
+  .userName{
+    right: 0;
+  }
+  
+  .serviceDiv button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    /* background-color:#4CAF50; */
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .serviceDiv a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .serviceDiv button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+.image{
+    margin-top: 5px;
+    width: 230px;
+    height:230px;
+    border-radius:10px;
+}
+
+.serviceDiv i{
+}
+.goToServiceButton{
+    background-color:#1877F2;
+
+}
+.wishlistButton{
+  background-color: #F36BAB;
+}
